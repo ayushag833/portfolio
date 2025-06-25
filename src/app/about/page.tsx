@@ -5,6 +5,9 @@ import { IoIosStar } from "react-icons/io";
 import { motion, useAnimation, useInView } from "framer-motion";
 import SkillSection from "@/app/about/SkillSection";
 import AboutAvatarSVG from "@/app/about/AboutAvatarSVG";
+import Image from "next/image";
+import LeetcodeIcon from "@/assets/codingImages/leetcode.png";
+import CodeforcesIcon from "@/assets/codingImages/codeforces.png";
 
 const About = () => {
   const ref = useRef(null);
@@ -57,6 +60,24 @@ const About = () => {
               </li>
             ))}
           </ul>
+          <div className="flex flex-row items-center gap-4 mt-5">
+          <motion.a
+            href="https://leetcode.com/u/ayush455/"
+            target="_blank"
+            whileHover={{ y: -6 }}
+            whileTap={{ scale: 1 }}
+          >
+            <Image src={LeetcodeIcon} className="w-8" alt="Leetcode Icon" />
+          </motion.a>
+          <motion.a
+            href="https://codeforces.com/profile/AyushAggarwal600"
+            target="_blank"
+            whileHover={{ y: -6 }}
+            whileTap={{ scale: 1 }}
+          >
+            <Image src={CodeforcesIcon} className="w-8" alt="Codeforces Icon" />
+          </motion.a>
+          </div>
         </motion.div>
         <motion.div
           className="md:w-[40%]"

@@ -11,37 +11,43 @@ const projects: Array<IProject> = [
     title: "Agayu",
     description: "Student-focused, feature-rich, zero-code platform to learn, revise and test concepts interactively across core technical subjects. Frontend - React, Backend - Nodejs, Database - MongoDB",
     thumbnail: agayu,
-    githubLink: "https://github.com/ayushag833/AGAYU"
+    githubLink: "https://github.com/ayushag833/AGAYU",
+    demoLink: "https://agayu-frontend.onrender.com"
   },
   {
     title: "Crazy Typewriter",
     description: "AI-powered, intuitive, no-code tool to convert voice recordings into structured and publish-ready blog posts within seconds. Frontend - Nextjs, Backend - Nextjs, Database - NeonDB, Auth - Clerk",
     thumbnail: crazy,
-    githubLink: "https://github.com/ayushag833/Crazy-TypeWriter"
+    githubLink: "https://github.com/ayushag833/Crazy-TypeWriter",
+    demoLink: "https://crazy-typewriter.onrender.com"
   },
   {
     title: "The Convenience Store",
     description: "Simple, responsive, user-friendly storefront to explore, add and purchase daily essentials with a real-time cart and checkout flow. Frontend - React, Backend - Nodejs, Database - MongoDB",
     thumbnail: store,
-    githubLink: "https://github.com/ayushag833/The-Convenience-Store"
+    githubLink: "https://github.com/ayushag833/The-Convenience-Store",
+    demoLink: "https://the-convenience-store-frontend.onrender.com"
   },
   {
     title: "Filmi Flex",
     description: "Clean, searchable, detail-oriented catalog to view ratings, cast, genre, and summaries of movies and web series in one place. Coded this project using React and TMDB API for movie data",
     thumbnail: filmi,
-    githubLink: "https://github.com/ayushag833/Filmi-Flex"
+    githubLink: "https://github.com/ayushag833/Filmi-Flex",
+    demoLink: "https://filmi-flex.vercel.app"
   },
   {
     title: "iBlog",
     description: "Straightforward, minimal blogging platform to create, browse and comment on posts without any setup or coding knowledge. Frontend - EJS, Backend - Nodejs, Database - MongoDB",
     thumbnail: blog,
-    githubLink: "https://github.com/ayushag833/iBlog"
+    githubLink: "https://github.com/ayushag833/iBlog",
+    demoLink: "https://iblog-il7l.onrender.com"
   },
   {
     title: "Recipe App",
     description: "Instant-access, visually guided interface to find detailed recipes and watch related YouTube videos for step-by-step cooking support. Coded this project using HTML, CSS, JavaScript and MealDB API for recipes data",
     thumbnail: recipe,
-    githubLink: "https://github.com/ayushag833/Recipe-App"
+    githubLink: "https://github.com/ayushag833/Recipe-App",
+    demoLink: "https://recipe-app-mauve-zeta.vercel.app"
   }
 ]
 
